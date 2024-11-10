@@ -1,0 +1,39 @@
+/* Section 基本樣式 */
+section {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+}
+
+.leading-section, .middle-section, .ending-section {
+    background-color: #333;
+}
+
+/* 影片區塊容器樣式 */
+.video-section {
+    position: relative;
+    overflow: hidden;
+}
+
+/* 影片容器 */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* 影片樣式 */
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
